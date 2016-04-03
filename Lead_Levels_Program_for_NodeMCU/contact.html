@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Lead Levels</title>
+    <style type="text/css"></style>
+    <link rel="stylesheet" href="contact.css"></link>
+  </head>
+		<body>
+	<h1> Lead Levels</h1>
+    <div class="container">
+      <div id="sidebar">
+          <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="background.html">About Us</a></li>
+              <li><a href="https://www.epa.gov/lead/learn-about-lead">Risks of Lead</a></li>
+              <li><a href="contact.html">Contact Your Government</a></li>
+       
+          </ul>
+
+      </div>
+
+
+      <div class="main-content">
+     <form action="contact.php" method="post">
+       <h2>What is your concern?</h2>
+       <input type="checkbox" name="package" value="Picture" id="picture"/>My lead levels are too high and/or are unusual.
+       <br/>
+       <input type="checkbox" name="package" value="Visit" id="visit"/>I would like more information on lead contamination.
+       <br/> 
+        <input type="checkbox" name="package" value="Small Plush" id="small plush"/>I request a report of what contaminants are in my water.
+       <br/> 
+       <input type="checkbox" name="package" value="Jumbo Plush" id="jumbo plush"/>Other (Explain in Message)
+       <br><br>
+       <br><br>
+        Your name<br><input type="text" name="cf_name"><br><br>
+        Your e-mail<br><input type="text" name="cf_email"><br><br>
+        Message<br><textarea name="cf_message"></textarea>
+        <br><br>
+        <input type="reset" value="Clear">
+
+    </form>
+    <br></br>
+    <button type="button" value="Send" onClick="location.href='thankyou.html';">Send</button>
+      </div> 
+      </div>
+    </div>
+	</body>
+</html>
